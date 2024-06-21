@@ -26,7 +26,7 @@
    ```
    После этого для запуска контейнера используется команда
    ```
-   sudo docker run -d --name telegram-bot \
+   sudo docker run -d --name telegram-weather-bot \
        -e TELEGRAM_BOT_TOKEN=your_telegram_bot_token \
        -e VISUAL_CROSSING_API_KEY=your_visual_crossing_api_key \
        telegram-bot
