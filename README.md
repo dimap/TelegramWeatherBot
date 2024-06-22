@@ -22,7 +22,7 @@
    ```
    **Если docker-compose не установлен**, то для сборки образа сначала надо использовать команду <br>
    ```
-   sudo docker build -t telegram-bot .
+   sudo docker build -t telegram-weather-bot .
    ```
    После этого для запуска контейнера используется команда
    ```
