@@ -29,6 +29,6 @@
    sudo docker run -d --name telegram-weather-bot \
        -e TELEGRAM_BOT_TOKEN=your_telegram_bot_token \
        -e VISUAL_CROSSING_API_KEY=your_visual_crossing_api_key \
-       telegram-bot
+       telegram-weather-bot
    ```
    Где *your_telegram_bot_token* и *your_visual_crossing_api_key* это собственные API ключи сервисов
